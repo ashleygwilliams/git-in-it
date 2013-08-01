@@ -5,21 +5,22 @@
     <link href="css/custom.css" type="text/css" rel="stylesheet"/>
     <link href='http://fonts.googleapis.com/css?family=PT+Mono|Oswald:400,700,300' rel='stylesheet' type='text/css'>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="60">
+    
+    <div>
+      <%= yield %>
+    </div>
     <div class="navbar navbar-fixed-top">
       <a class="navbar-brand" href="#">Git in it!</a>
       <ul class="nav navbar-nav pull-right">
         <li class="active"><a href="#">Objectives</a></li>
-        <li><a href="#">Introduction</a></li>
-        <li><a href="#">Setup</a></li>
-        <li><a href="#">Tutorials</a></li>
-        <li><a href="#">Resources</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#resources">Resources</a></li>
       </ul>
     </div>
-    <div>
-      <%= yield %>
-    </div>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="/js/boostrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
