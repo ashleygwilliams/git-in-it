@@ -1,6 +1,6 @@
 body {
   font-family: 'PT Mono', Helvetica, Arial, sans-serif;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 #background {
   position: fixed;
@@ -25,7 +25,8 @@ h1 {
 .navbar-brand {
   color: #4183c4;
   font-style: italic;
-  font-family: 'PT Mono', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
 }
 h2 {
   font-weight: 400;
