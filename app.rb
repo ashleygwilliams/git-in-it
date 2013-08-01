@@ -14,11 +14,6 @@ module GitInIt
       set :public_folder, 'public'
     end
 
-    #database
-    set :database, "sqlite3:///database.db"
-
-    #filters
-
     #routes
     get '/' do
       erb :index
