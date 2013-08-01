@@ -2,12 +2,24 @@
 <html>
   <head>
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <link href="css/bootstrap-responsive.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/custom.css" type="text/css" rel="stylesheet"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Mono|Oswald:400,700,300' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <div class="navbar navbar-fixed-top">
+      <a class="navbar-brand" href="#">Git in it!</a>
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="#">Objectives</a></li>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">Setup</a></li>
+        <li><a href="#">Tutorials</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+    </div>
     <div class="container-fluid">
       <%= yield %>
     </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="/js/boostrap.min.js"></script>
   </body>
 </html>
