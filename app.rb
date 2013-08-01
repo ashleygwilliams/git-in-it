@@ -5,7 +5,7 @@ Dir.glob('./lib/*.rb') do |model|
   require model
 end
 
-module Name
+module GitInIt
   class App < Sinatra::Application
 
     #configure
